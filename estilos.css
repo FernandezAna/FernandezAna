@@ -1,0 +1,72 @@
+@font-face{
+    font-family: indieflower;
+    src: url(IndieFlower-Regular.ttf);
+}
+
+body{
+    background-color: bisque(255, 255, 255);
+    font-family:indieflower ;
+}
+
+.texto-centrado{
+    text-align:center ;
+    background-color: rgb(197, 214, 226);
+}
+
+a{
+    width: 20%;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    width: 20%;
+}
+
+img{
+    margin: 10% 40% 10% 40%;
+    display: block;
+}
+
+#imagen-boton{
+    margin: 10% 40% 10% 40% ;
+    display: flow-root;
+}
+
+#imagenb{
+    margin: 10% 40% 10% 40% ;
+    display: flow-root;
+}
+
+#im-boton{
+    margin: 10% 40% 10% 40% ;
+    display: flow-root;
+}
+
+@media only screen and (max-width:768xp){
+    .texto-centrado{
+        width: 90%;
+        margin: 5%;
+    }
+    #imagen-boton{
+        margin: 10% 40% 10% 40% ;
+        display: block;
+    }
+}
+
+@media only screen and (max-width:400xp){
+    #imagen-boton{
+        width: 100%;
+        margin: 0%;
+        font-size: 0.sem;
+    }
+
+}
+
+
+
+
+
+
